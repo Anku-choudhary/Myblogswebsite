@@ -1,0 +1,90 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #703473;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #e4ba56;
+}
+
+.poem, .affirmation, .quote {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.poem h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #584f9b;
+}
+
+.poem p, .affirmation p, .quote p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+footer {
+    background-color: #5caf86;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
